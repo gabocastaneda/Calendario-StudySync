@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>StudySync :: Calendario</title>
+    <title>StudySync - Calendario</title>
     <link rel="stylesheet" type="text/css" href="css/fullcalendar.min.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -110,7 +110,7 @@
                     //Eliminar evento
                     element.find(".closeon").on("click", function() {
 
-                        var pregunta = confirm("Deseas Borrar este Evento?");
+                        var pregunta = confirm("¿Deseas borrar este evento?");
                         if (pregunta) {
 
                             $("#calendar").fullCalendar("removeEvents", event._id);
@@ -165,7 +165,6 @@
 
             });
 
-
             //Oculta mensajes de Notificacion
             setTimeout(function() {
                 $(".alert").slideUp(300);
@@ -174,11 +173,6 @@
 
         });
     </script>
-
-
-    <!--------- WEB DEVELOPER ------>
-    <!--------- URIAN VIERA   ----------->
-    <!--------- PORTAFOLIO:  https://blogangular-c7858.web.app  -------->
 
 </body>
 
